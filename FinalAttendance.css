@@ -1,3 +1,11 @@
+/* Body alignment */
+body{
+     width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 /* Logo*/
 .logo {
     border-radius: 50%;
@@ -6,11 +14,11 @@
 
 /* background blue color css */
 .bg-custom {
-    background-color: skyblue;
+    background-color: #00bcd4;
 }
    
 #body-row .bg-custom {
-    background-color: skyblue;
+    background-color: #00bcd4;
 }
      
 /* Home icon */
@@ -32,8 +40,11 @@ font-size: 24px;
 }
 #sidebar-container {
     min-height: 100vh;   
-    background-color: skyblue;
+    background-color: #00bcd4;
     padding: 0;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
 }
 
 /* Sidebar sizes when expanded and expanded */
@@ -70,11 +81,11 @@ font-size: 24px;
     
 }
 .sidebar-separator {
-    background-color: skyblue;
+    background-color: #00bcd4;
     height: 25px;
 }
 .logo-separator {
-    background-color: skyblue;    
+    background-color: #00bcd4;    
     height: 60px;
 }
 
