@@ -1,6 +1,8 @@
-/* Body alignment */
+/* Skyblue color changed to #00bcd4 for navbar and sidebar*/
+
+/* Body alignment for removal of spaces around webpage */
 body{
-     width: 100%;
+    width: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
@@ -42,9 +44,9 @@ font-size: 24px;
     min-height: 100vh;   
     background-color: #00bcd4;
     padding: 0;
-    position: fixed;
-    z-index: 1;
-    overflow-x: hidden;
+    position: fixed;  /* These 3 lines for fixed sidebar */       /* 1 */
+    z-index: 1;                                                   /* 2 */
+    overflow-x: hidden;                                           /* 3 */
 }
 
 /* Sidebar sizes when expanded and expanded */
